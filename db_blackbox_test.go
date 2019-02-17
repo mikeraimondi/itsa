@@ -1,14 +1,14 @@
-package lsmdb_test
+package itsa_test
 
 import (
 	"bytes"
 	"testing"
 
-	"github.com/mikeraimondi/lsmdb"
+	"github.com/mikeraimondi/itsa"
 )
 
 func TestPutAndGet(t *testing.T) {
-	db, err := lsmdb.New()
+	db, err := itsa.New()
 	if err != nil {
 		t.Fatalf("expected no error from New. got %s", err)
 	}

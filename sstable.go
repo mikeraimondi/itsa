@@ -1,4 +1,4 @@
-package lsmdb
+package itsa
 
 func compactSSTables(tables ...*sstable) (*sstable, error) {
 	return nil, nil
